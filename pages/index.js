@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Router from "next/router";
+import withGA from "next-ga";
 import {
   GithubIcon,
   InstagramIcon,
@@ -7,7 +8,6 @@ import {
   TwitterIcon,
 } from "../components/Icons";
 import styles from "../styles/Home.module.css";
-import withGA from "next-ga";
 
 const Home = () => {
   return (
@@ -96,4 +96,4 @@ const Home = () => {
   );
 };
 
-export default withGA(process.env.GA_ID, Router)(Home);
+export default withGA(process.env.NEXT_PUBLIC_GA_ID, Router)(Home);
