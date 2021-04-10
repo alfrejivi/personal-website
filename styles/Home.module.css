@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f7f9f9;
+  background: white;
 }
 
 .container {
@@ -105,7 +105,7 @@
   left: 0;
   height: 95%;
   width: 100%;
-  background: #f7f9f9;
+  background: white;
   border-left: 2px solid #184e77;
   animation: typing 3s steps(15) infinite;
 }
