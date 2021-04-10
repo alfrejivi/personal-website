@@ -41,22 +41,22 @@ const Home = () => {
             <p>I like </p>
             <ul className={styles.dynamicText}>
               <li className={styles.travel}>
-                <span>travel</span>
+                <span>traveling</span>
               </li>
               <li className={styles.running}>
                 <span>running</span>
               </li>
               <li className={styles.create}>
-                <span>create cool stuff</span>
+                <span>creating cool stuff</span>
               </li>
               <li className={styles.beach}>
                 <span>going to the beach</span>
               </li>
               <li className={styles.drums}>
-                <span>to play the drums</span>
+                <span>playing the drums</span>
               </li>
               <li className={styles.videogames}>
-                <span>videogames</span>
+                <span>playing co-op videogames</span>
               </li>
             </ul>
           </article>
