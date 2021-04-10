@@ -1,20 +1,10 @@
-/* 
-  Color palette:
-  https://coolors.co/e7ecef-274c77-6096ba-a3cef1-8b8c89
-
-  #E7ECEF
-  #274C77
-  #6096BA
-  #A3CEF1
-  #8B8C89
-*/
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: white;
 }
 
 a {

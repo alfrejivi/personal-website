@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
 }
 
 .container {
@@ -154,5 +153,10 @@
   .name {
     font-size: 2rem;
     margin-bottom: 15px;
+  }
+
+  .site {
+    min-height: inherit;
+    padding: 4rem 0;
   }
 }

@@ -47,11 +47,11 @@ export default function Home() {
               <li className={styles.create}>
                 <span>create cool stuff</span>
               </li>
-              <li className={styles.drums}>
-                <span>play the drums</span>
-              </li>
               <li className={styles.beach}>
-                <span>the beach</span>
+                <span>going to the beach</span>
+              </li>
+              <li className={styles.drums}>
+                <span>to play the drums</span>
               </li>
               <li className={styles.videogames}>
                 <span>videogames</span>
